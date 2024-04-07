@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import styles from "../auth.module.css";
 import AuthForm from "../../../features/auth/AuthForm";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getCurrentUser, getUsers } from "../../../store/users/users.actions";
-import Input from "../../../widgets/inputs/Input";
-import Button from "../../../widgets/buttons/Button";
+
 import InputNew from "../../../widgets/inputs/InputNew";
 import ButtonNew from "../../../widgets/buttons/ButtonNew";
 import BannerLeft from "../../../widgets/bannerLeft/BannerLeft";

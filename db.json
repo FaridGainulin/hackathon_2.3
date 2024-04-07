@@ -19,6 +19,18 @@
       "id": 2
     }
   ],
+  "basket": [
+    {
+      "userId": 1,
+      "productId": 21,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "productId": 15,
+      "id": 5
+    }
+  ],
   "products": [
     {
       "title": "iphone 15",

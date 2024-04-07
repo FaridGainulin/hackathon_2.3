@@ -23,7 +23,7 @@ const EditProfile = () => {
 
   const navigate = useNavigate();
 
-  const { users, currentUser } = useSelector((state) => state.users);
+  const { currentUser } = useSelector((state) => state.users);
   useEffect(() => {
     dispatch(getCurrentUser());
 
@@ -97,12 +97,6 @@ const EditProfile = () => {
             value={user.email}
             type="email"
           />
-          {/* <Input
-            onChange={handleChange}
-            name="description"
-            value={user.description}
-            type="text"
-          /> */}
 
           <InputNew
             onChange={handleChange}
@@ -110,12 +104,7 @@ const EditProfile = () => {
             value={user.profileImage}
             type="url"
           />
-          {/* <Input
-            onChange={handleChange}
-            name="backgroundImage"
-            value={user.backgroundImage}
-            type="url"
-          /> */}
+
           <ButtonNew color="blue">Сохранить</ButtonNew>
         </form>
       </AuthForm>

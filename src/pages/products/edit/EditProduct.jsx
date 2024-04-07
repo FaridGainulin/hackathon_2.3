@@ -46,7 +46,7 @@ const EditProduct = () => {
     e.preventDefault();
     for (let key in product) {
       if (!product[key]) {
-        alert("Some inputs are empty!");
+        alert("Заполните все поля...");
         return;
       }
     }
@@ -58,7 +58,6 @@ const EditProduct = () => {
       image: "",
     });
     navigate("/");
-    console.log(product);
   }
 
   return (

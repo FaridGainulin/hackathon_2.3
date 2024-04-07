@@ -17,8 +17,8 @@ const ProductsCard = () => {
   const dispatch = useDispatch();
   return (
     <div>
+      {(loading || error) && <Loader />}
       <div className={styles.cardList}>
-        {(loading || error) && <Loader />}
         {products.map((item) => (
           <div key={item.id} className={styles.card}>
             <img src={item.image} alt="" />

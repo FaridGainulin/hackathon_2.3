@@ -1,6 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { getUsers } from "../users/users.actions";
 import { setLastPage } from "./products.slice";
 
 const PRODUCTS_API = "http://localhost:8006/products";
@@ -20,7 +19,6 @@ export const getProducts = createAsyncThunk(
       `${PRODUCTS_API}?_page=${currentPage}&_limit=8&q=${search}`
     );
     const totalCount = Math.ceil(headers["x-total-count"] / 8);
-    console.log(totalCount);
     currentPage === totalCount
       ? dispatch(setLastPage(true))
       : dispatch(setLastPage(false));

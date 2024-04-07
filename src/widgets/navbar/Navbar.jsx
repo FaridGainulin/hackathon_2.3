@@ -7,16 +7,23 @@ import { logout } from "../../store/users/users.slice";
 import Button from "../buttons/Button";
 import { getProducts } from "../../store/products/products.actions";
 import { resetPage } from "../../store/products/products.slice";
+import { resetBasket } from "../../store/basket/basket.slice";
 import InputNew from "../inputs/InputNew";
+import { getBasket } from "../../store/basket/basket.actions";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const dispatch = useDispatch();
   const { currentUser } = useSelector((state) => state.users);
+  const { basket } = useSelector((state) => state.basket);
   const [user, setUser] = useState({
     profileImage: "",
     username: "",
   });
+
+  useEffect(() => {
+    dispatch(getBasket());
+  }, [currentUser]);
 
   useEffect(() => {
     let handler = () => {
@@ -54,6 +61,11 @@ const Navbar = () => {
   const fetchProducts = () => {
     dispatch(resetPage());
     dispatch(getProducts(searchVal));
+  };
+
+  const logoutHandle = () => {
+    dispatch(logout());
+    dispatch(resetBasket());
   };
 
   return (
@@ -95,15 +107,18 @@ const Navbar = () => {
           />
         </form>
       </div>
-      <Link to="/basket">
-        <div className={styles.basketWrap}>
-          <img
-            className={styles.basket}
-            src="https://bcmsa.devcogroup.com/wp-content/uploads/2020/02/basketicon.png"
-            alt="basket"
-          />
-        </div>
-      </Link>
+      {currentUser && (
+        <Link to="/basket">
+          <div className={styles.basketWrap}>
+            <div className={styles.basketCount}>{basket?.length}</div>
+            <img
+              className={styles.basket}
+              src="https://bcmsa.devcogroup.com/wp-content/uploads/2020/02/basketicon.png"
+              alt="basket"
+            />
+          </div>
+        </Link>
+      )}
 
       <div className={`navMenu ${open ? "active" : ""}`}>
         {currentUser ? (
@@ -117,10 +132,7 @@ const Navbar = () => {
               ""
             )}
             {/* <Link to="/create-product">Добавить продукт</Link>  */}
-            <p
-              className={styles.colorViolet}
-              onClick={() => dispatch(logout())}
-            >
+            <p className={styles.colorViolet} onClick={logoutHandle}>
               Выйти
             </p>
           </div>
