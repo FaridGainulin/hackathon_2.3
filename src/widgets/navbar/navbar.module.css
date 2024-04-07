@@ -1,0 +1,81 @@
+.user {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+.navUserName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.navbar {
+  background-color: #212123;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.navbar a {
+  color: #767171;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover,
+.user:hover {
+  color: #805aa3;
+  text-decoration: none;
+}
+
+.colorViolet {
+  font-size: 20px;
+}
+
+.colorViolet:hover {
+  color: #805aa3;
+  cursor: pointer;
+}
+
+.logo {
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.navbarUser {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.searchInp {
+  color: #767171;
+  border: 1px solid #805aa3;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-left: 0px;
+  background: transparent;
+  max-width: 190px;
+}
+
+.input:active {
+  box-shadow: 2px 2px 15px #805aa3 inset;
+}
+
+.basket {
+  width: 50px;
+}
+.basketWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 10px 20px 0 30px;
+}

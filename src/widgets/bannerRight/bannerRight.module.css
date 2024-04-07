@@ -1,0 +1,9 @@
+.wrap {
+  width: 300px;
+  height: 400px;
+
+  border-radius: 10px;
+  background-image: url("https://sevenjournals.com/wp-content/uploads/2021/03/u-iphone-12-pro-takoj-zhe-razmer-i-takoj-zhe-razmer-ekrana-kak-u-iphone-12.-840x560.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}

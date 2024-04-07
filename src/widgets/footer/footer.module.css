@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer {
+  color: #393838;
+  height: 15vh;
+  max-width: 100%;
+  background-color: #191919;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.logo img {
+  display: flex;
+  padding: 20px;
+  width: 100px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 50px;
+}
+.socials a svg {
+  width: 30px;
+  height: 30px;
+}

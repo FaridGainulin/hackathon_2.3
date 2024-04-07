@@ -1,0 +1,241 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "123456",
+      "passwordConfirm": "123456",
+      "profileImage": "https://www.logolynx.com/images/logolynx/s_23/23938578fb8d88c02bc59906d12230f3.png",
+      "email": "admin@gmail.com",
+      "description": "my desc",
+      "id": 1
+    },
+    {
+      "username": "User",
+      "password": "123456",
+      "passwordConfirm": "123456",
+      "profileImage": "https://th.bing.com/th/id/R.6f3131c4073569dd3a9496c4de035c05?rik=Q%2fsArgo11bY03w&riu=http%3a%2f%2fclipart-library.com%2fimg1%2f1199443.png&ehk=8S7AQUCAmgo2vNS8pLu5VIyCHUA2vXeNn%2bL%2fRRMRotc%3d&risl=&pid=ImgRaw&r=0",
+      "email": "User@gmail.com",
+      "description": "desc",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "title": "iphone 15",
+      "description": "smartphone",
+      "price": "1150",
+      "image": "https://media.wired.com/photos/6508e654501236bad4a1bd84/1:1/w_1800,h_1800,c_limit/iPhone-15-Pro-Review-Featured-Gear.jpg",
+      "id": 9
+    },
+    {
+      "title": "iphone 14 pro",
+      "description": "smartphone",
+      "price": "980",
+      "image": "https://www.apple.com/v/iphone-14-pro/g/images/meta/iphone-14-pro_overview__3dn6st99cpea_og.png",
+      "id": 10
+    },
+    {
+      "title": "iphone 14",
+      "description": "smartphone",
+      "price": "800",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEy7gkjxR0B1ThClY_uVqwXQNUwKqo3rSAwROwkEBXQ&s",
+      "id": 11
+    },
+    {
+      "title": "iphone",
+      "description": "smartphone",
+      "price": "700",
+      "image": "https://i.ytimg.com/vi/FT3ODSg1GFE/maxresdefault.jpg",
+      "id": 12
+    },
+    {
+      "title": "sumsung",
+      "description": "smartphone",
+      "price": "1200",
+      "image": "https://images.samsung.com/ru/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-carousel-global-mo.jpg?imbypass=true",
+      "id": 13
+    },
+    {
+      "title": "sumsung",
+      "description": "smartphone",
+      "price": "1103",
+      "image": "https://3dnews.ru/assets/external/illustrations/2023/09/29/1093797/s24-u-3.jpg",
+      "id": 14
+    },
+    {
+      "title": "sumsung",
+      "description": "smartphone",
+      "price": "1000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLSlMyr-0-Hrj46wouE1N_LxDXtacJjmoHw&s",
+      "id": 15
+    },
+    {
+      "title": "sumsung",
+      "description": "smartphone",
+      "price": "800",
+      "image": "https://images.samsung.com/ru/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titanium-gray-back-mo.jpg?imbypass=true",
+      "id": 16
+    },
+    {
+      "title": "sony",
+      "description": "smartphone",
+      "price": "1400",
+      "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/GWX_mobile_Categorypage_New%20products_Speed%20and%20beyond?$newprdMImg$&fmt=png-alpha",
+      "id": 17
+    },
+    {
+      "title": "sony",
+      "description": "smartphone",
+      "price": "1250",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/Sony-UDC-Xperia-under-display-camera-name-rumor-drdNBC.jpg",
+      "id": 18
+    },
+    {
+      "title": "sony",
+      "description": "smartphone",
+      "price": "1140",
+      "image": "https://androidinsider.ru/wp-content/uploads/2018/12/sony1-750x696.jpg",
+      "id": 19
+    },
+    {
+      "title": "sony",
+      "description": "smartphone",
+      "price": "600",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQTk4wp2hC5SnSWicRbgER4y3-d0cZ3PMCQ&s",
+      "id": 20
+    },
+    {
+      "title": "sony",
+      "description": "smartphone",
+      "price": "450",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpU0vzMqG8Rl6hHnnZy-5GVTsVqXtWA3Gkqg&s",
+      "id": 21
+    },
+    {
+      "title": "apple",
+      "description": "macbook air",
+      "price": "2500",
+      "image": "https://media.wired.com/photos/65ea34d70264b0ad869cbc18/master/w_2560%2Cc_limit/MacBook-Air-M3-Review-Featured-Gear.jpg",
+      "id": 22
+    },
+    {
+      "title": "apple",
+      "description": "macbook air pro",
+      "price": "3500",
+      "image": "https://www.aptronixindia.com/media/catalog/product/cache/31f0162e6f7d821d2237f39577122a8a/m/b/mbp-spacegray-select-202206-removebg-preview_1.png",
+      "id": 23
+    },
+    {
+      "title": "apple",
+      "description": "macbook air M3",
+      "price": "2600",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/apple-macbook-air-m3-cnnu-lead-options-8.jpg?c=original",
+      "id": 24
+    },
+    {
+      "title": "apple",
+      "description": "M3 macbook air",
+      "price": "3000",
+      "image": "https://www.cnet.com/a/img/resize/dcf497c2d0ac684974ad3bf9904cbcb9e00e92d9/hub/2024/03/06/725a8e72-aa72-439a-9357-af161b30f3c9/apple-macbook-air-m3-2024-14.jpg?auto=webp&fit=crop&height=362&width=644",
+      "id": 25
+    },
+    {
+      "title": "apple",
+      "description": "macbook air pro 14",
+      "price": "5000",
+      "image": "https://softech.kg/image/cache/cb046b7a536aff8b556e1baa6bb4bed9.jpg",
+      "id": 26
+    },
+    {
+      "title": "apple",
+      "description": "macbook air M2",
+      "price": "3100",
+      "image": "https://www.bhphotovideo.com/images/images2500x2500/apple_mphe3ll_a_14_macbook_pro_with_1746351.jpg",
+      "id": 27
+    },
+    {
+      "title": "apple",
+      "description": "macbook air",
+      "price": "3200",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/211025072623-macbook-pro-14-display-5.jpg?q=x_0,y_0,h_2268,w_4030,c_fill",
+      "id": 28
+    },
+    {
+      "title": "sony",
+      "description": "VAIO",
+      "price": "5100",
+      "image": "https://www.zdnet.com/a/img/resize/40ad712721dbb8fd299b0bf127f8f5a8cb483880/2021/02/21/2043b5a3-45e8-4866-9e62-0fe57b0de645/vaio-z-ultraportable-carbon-fiber-laptop-notebook.jpg?auto=webp&width=1280",
+      "id": 29
+    },
+    {
+      "title": "sony",
+      "description": "SONY VAIO PCG-61111N White 14 inch",
+      "price": "4500",
+      "image": "https://i.ebayimg.com/00/s/NTQwWDcyMA==/z/EjcAAOSwMl9h2Wo3/$_12.JPG?set_id=880000500F",
+      "id": 30
+    },
+    {
+      "title": "sony",
+      "description": "VAIO smart laptop",
+      "price": "4800",
+      "image": "https://www.sony.co.uk/image/5d085bc2060c7ebef73b46c7db7c90ee?fmt=jpeg&wid=1160&qlt=43",
+      "id": 31
+    },
+    {
+      "title": "sony",
+      "description": "VAIO laptop",
+      "price": "6500",
+      "image": "https://c8.alamy.com/comp/2A26KBY/vaio-branded-laptop-but-not-made-by-sony-2A26KBY.jpg",
+      "id": 32
+    },
+    {
+      "title": "tablet",
+      "description": "xiomi",
+      "price": "1000",
+      "image": "https://m.media-amazon.com/images/I/71R8O1z1jbL._AC_UF894,1000_QL80_.jpg",
+      "id": 33
+    },
+    {
+      "title": "pad",
+      "description": "xiomi",
+      "price": "800",
+      "image": "https://i.ebayimg.com/images/g/Z3gAAOSwhUZkv4B2/s-l1200.webp",
+      "id": 34
+    },
+    {
+      "title": "pad",
+      "description": "xiomi redmi pad",
+      "price": "1200",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/Xiaomi/Redmi_Pad/4_zu_3_Teaser_News.jpg",
+      "id": 35
+    },
+    {
+      "title": "pad",
+      "description": "Xiaomi Pad 6 review",
+      "price": "1300",
+      "image": "https://fdn.gsmarena.com/imgroot/reviews/23/xiaomi-pad-6/-728x314/gsmarena_001.jpg",
+      "id": 36
+    },
+    {
+      "title": "apple",
+      "description": "apple ipad",
+      "price": "2300",
+      "image": "https://www.att.com/scmsassets/global/devices/tablets/apple/apple-ipad-pro-12-9-inch-2022/carousel/silver/silver-6.png",
+      "id": 37
+    },
+    {
+      "title": "apple",
+      "description": "iPad Air - Apple",
+      "price": "2650",
+      "image": "https://www.apple.com/v/ipad-air/t/images/overview/design/colors_ipad_1__duc962moy3iq_large.jpg",
+      "id": 38
+    },
+    {
+      "title": "apple",
+      "description": "apple ipad pro",
+      "price": "1500",
+      "image": "https://media.wired.com/photos/635af3bc3c668b3d581922c6/master/pass/iPad-Pro-2022-Gear.jpg",
+      "id": 39
+    }
+  ]
+}
