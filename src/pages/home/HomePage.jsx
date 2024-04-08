@@ -5,6 +5,7 @@ import { getProducts } from "../../store/products/products.actions";
 import Slider from "../../widgets/slider/Slider";
 import BannerLeft from "../../widgets/bannerLeft/BannerLeft";
 import BannerRight from "../../widgets/bannerRight/BannerRight";
+import styles from "./homePage.module.css";
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -13,13 +14,7 @@ const HomePage = () => {
   }, [dispatch]);
   return (
     <div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className={styles.home}>
         <BannerLeft />
         <Slider />
         <BannerRight />
