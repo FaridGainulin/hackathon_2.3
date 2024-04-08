@@ -23,3 +23,13 @@
     width: 63%;
   }
 }
+@media screen and (max-width: 900px) {
+  .wrap {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .wrap {
+    display: none;
+  }
+}

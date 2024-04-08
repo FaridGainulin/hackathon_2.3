@@ -32,13 +32,7 @@ const ViewProduct = () => {
   }, [dispatch, id]);
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className={styles.container}>
       <BannerLeft />
       <div>
         <div className={styles.form}>

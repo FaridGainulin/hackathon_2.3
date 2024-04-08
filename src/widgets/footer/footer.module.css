@@ -31,3 +31,12 @@
   width: 30px;
   height: 30px;
 }
+@media screen and (max-width: 420px) {
+  .footer {
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    height: 200px;
+  }
+}
