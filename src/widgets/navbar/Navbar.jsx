@@ -4,7 +4,6 @@ import { Link, useSearchParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getCurrentUser } from "../../store/users/users.actions";
 import { logout } from "../../store/users/users.slice";
-import Button from "../buttons/Button";
 import { getProducts } from "../../store/products/products.actions";
 import { resetPage } from "../../store/products/products.slice";
 import { resetBasket } from "../../store/basket/basket.slice";
@@ -131,7 +130,6 @@ const Navbar = () => {
             ) : (
               ""
             )}
-            {/* <Link to="/create-product">Добавить продукт</Link>  */}
             <p className={styles.colorViolet} onClick={logoutHandle}>
               Выйти
             </p>

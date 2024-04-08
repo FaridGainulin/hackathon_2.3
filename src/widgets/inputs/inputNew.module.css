@@ -24,3 +24,13 @@
 .input:focus::placeholder {
   color: #8e69d4;
 }
+@media screen and (max-width: 600px) {
+  .input {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .input {
+    width: 100px;
+  }
+}

@@ -93,3 +93,18 @@
   top: 10px;
   left: 50px;
 }
+@media screen and (max-width: 800px) {
+  .navbar {
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .basketWrap {
+    margin: 1px;
+  }
+  /* .basket {
+    width: 20px;
+  } */
+}
+@media screen and (max-width: 600px) {
+}
