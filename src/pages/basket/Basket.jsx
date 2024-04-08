@@ -17,22 +17,30 @@ const Basket = () => {
     <div className={styles.cont}>
       <h1>Корзина</h1>
 
-      <div className={styles.inner}>
+      <div>
         {basket?.map(({ product, id }) => (
-          <div key={product.id}>
-            <p>
-              {product.title}
-              {product.description}
-              {product.price}
-              <ButtonNew
-                onClick={() => dispatch(deleteBasketItem(id))}
-                color="red"
-              >
-                Удалить
-              </ButtonNew>
-            </p>
-
-            {/* <pre>{JSON.stringify(item)}</pre> */}
+          <div className={styles.inner} key={product.id}>
+            <div className={styles.inner.Wrap}>
+              <div className={styles.innerImg}>
+                <img src={product.image} alt="" />
+              </div>
+              <div>
+                <p className={styles.innerTitle}>{product.title}</p>
+                <p className={styles.descript}>{product.description}</p>
+                <p className={styles.innerPrice}>{product.price}$</p>
+                <p className={styles.oldPrice}>
+                  {Math.floor(product.price * 1.1)} $
+                </p>
+              </div>
+              <div>
+                <ButtonNew
+                  onClick={() => dispatch(deleteBasketItem(id))}
+                  color="red"
+                >
+                  Удалить
+                </ButtonNew>
+              </div>
+            </div>
           </div>
         ))}
       </div>

@@ -13,6 +13,7 @@ import {
   createBasketItem,
   getBasket,
 } from "../../../store/basket/basket.actions";
+import { TiTick } from "react-icons/ti";
 
 const ViewProduct = () => {
   const { oneProduct } = useSelector((state) => state.products);
@@ -104,7 +105,12 @@ const ViewProduct = () => {
                 </ButtonNew>
               )}
 
-              {productInBasket && <p>Уже в корзине</p>}
+              {productInBasket && (
+                <div className={styles.pBtn}>
+                  <TiTick />
+                  Уже в корзине
+                </div>
+              )}
             </div>
           </div>
         </div>
