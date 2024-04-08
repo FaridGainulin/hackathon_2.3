@@ -1,5 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form {
-  /* color: #7c7878; */
   background-color: #191919;
   width: 690px;
   height: 400px;
@@ -64,4 +69,25 @@
   padding: 15px;
   color: #7c7878;
   text-align: center;
+}
+@media screen and (max-width: 720px) {
+  .form {
+    width: 580px;
+    height: 800px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .form {
+    flex-direction: column;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form {
+    width: 300px;
+  }
+  .viewImgBig {
+    width: 250px;
+  }
 }
