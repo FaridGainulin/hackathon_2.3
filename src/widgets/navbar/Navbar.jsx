@@ -28,7 +28,7 @@ const Navbar = () => {
     let handler = () => {
       setOpen(false);
     };
-    document.addEventListener("mousedown", handler);
+    document.addEventListener("onclick", handler);
 
     const id = localStorage.getItem("currentUser");
     if (id) {

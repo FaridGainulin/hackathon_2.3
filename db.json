@@ -59,6 +59,11 @@
       "userId": 1,
       "productId": 15,
       "id": 12
+    },
+    {
+      "userId": 1,
+      "productId": 12,
+      "id": 13
     }
   ],
   "products": [

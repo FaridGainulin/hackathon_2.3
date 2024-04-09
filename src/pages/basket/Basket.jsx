@@ -3,10 +3,15 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./basket.module.css";
 import ButtonNew from "../../widgets/buttons/ButtonNew";
-import { deleteBasketItem, getBasket } from "../../store/basket/basket.actions";
+import {
+  deleteBasket,
+  deleteBasketItem,
+  getBasket,
+} from "../../store/basket/basket.actions";
 
 const Basket = () => {
   const { basket, loading } = useSelector((state) => state.basket);
+  const { currentUser } = useSelector((state) => state.users);
 
   const dispatch = useDispatch();
   useEffect(() => {
